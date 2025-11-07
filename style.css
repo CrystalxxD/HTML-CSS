@@ -4,10 +4,31 @@ html{
 
 body{
     background-color: powderblue;
+    text-align: center;
 }
 
 h1{
     color: rgba(0, 0, 255, 0.79);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+nav {
+    background-color: #0c0077;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #0044ff;
+    text-decoration: none;
 }
